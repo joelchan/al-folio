@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Joel</strong> Chan
+description: Assistant Professor, College of Information Studies, University of Maryland College Park
 
 profile:
   align: right
