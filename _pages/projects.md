@@ -9,6 +9,7 @@ description: A growing collection of your cool projects.
 
 {% if project.redirect %}
 <div class="project">
+    <h4>{{ project.title }}</h4>
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
@@ -16,9 +17,7 @@ description: A growing collection of your cool projects.
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
+        <span>            
             <p>{{ project.description }}</p>
         </span>
         </a>
@@ -27,6 +26,7 @@ description: A growing collection of your cool projects.
 {% else %}
 
 <div class="project ">
+    <h4>{{ project.title }}</h4>
     <div class="thumbnail">
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
         {% if project.img %}
@@ -35,8 +35,8 @@ description: A growing collection of your cool projects.
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
+            <!-- <h1>{{ project.title }}</h1> -->
+            <!-- <br/> -->
             <p>{{ project.description }}</p>
         </span>
         </a>
