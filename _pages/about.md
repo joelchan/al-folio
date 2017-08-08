@@ -1,11 +1,11 @@
 ---
 layout: about
 permalink: /
-title: <strong>Joel</strong> Chan
-description: Assistant Professor, College of Information Studies, University of Maryland College Park
+title: Joel Chan
+description: Assistant Professor | College of Information Studies | University of Maryland College Park
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
